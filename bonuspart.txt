@@ -1,0 +1,12 @@
+1. How would you deploy this project on AWS?
+Ans. Add a Dockerfile to your project root:
+It should define how your Node app is built and started (see below 👇)
+Install EB CLI and initialize Elastic Beanstalk
+eb init
+eb create visa-app-env
+
+Deploy your app
+eb deploy
+
+
+
